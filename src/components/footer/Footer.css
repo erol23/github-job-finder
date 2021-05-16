@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 3rem;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 45rem;
+}
+p img{
+    object-fit: cover;
+    height: 1.5rem;
+}

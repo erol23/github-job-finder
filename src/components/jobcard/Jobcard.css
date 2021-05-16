@@ -1,0 +1,28 @@
+.jobCard{
+    margin-top: 1rem;
+    background-color: white;
+    width: 35rem;
+    border: 1px solid green;
+}
+img{
+    object-fit: cover;
+    height: 3rem;
+}
+.info{
+    border: 1px solid green;
+    margin-left: -0.5px;
+}
+.search{
+    background-color: rgb(233, 233, 233);
+    margin-top: 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.apply{
+    width: 15rem;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
