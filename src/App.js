@@ -1,15 +1,33 @@
-import './App.css';
-import Footer from './components/footer/Footer';
-import Form from './components/form/Form';
-import Header from './components/header/Header';
-import Jobcard from './components/jobcard/Jobcard';
+import "./App.css";
+import axios from "axios";
+import Footer from "./components/footer/Footer";
+import Form from "./components/form/Form";
+import Header from "./components/header/Header";
+import Jobcard from "./components/jobcard/Jobcard";
+import loading from "./assets/loading.gif";
+import { useState } from "react";
 
 function App() {
+  const [load, setLoad] = useState(false);
+  const [jobs, setjobs] = useState();
+
+  const newQuery = (description, location) => {
+    setLoad(true)
+    axios({
+      method: "get",
+      url: `/positions.json?description-${description}&location=${location}`,
+    })
+      .then((res) => setjobs(res.data))
+      .catch((err) => console.log(err))
+      .finally(() => setLoad(false));
+  };
+
   return (
     <div className="App">
       <Header />
-      <Form />
-      <Jobcard />
+      <Form newQuery={newQuery} />
+      {load ? <img src={loading} alt='' className='loading'/> : null}
+      {jobs?.map((job) => (<Jobcard job={job}/>))}
       <Footer />
     </div>
   );
