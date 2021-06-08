@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github-job-finder/static/css/main.ac8d1586.chunk.css",
+    "main.js": "/github-job-finder/static/js/main.42ef9f61.chunk.js",
+    "main.js.map": "/github-job-finder/static/js/main.42ef9f61.chunk.js.map",
+    "runtime-main.js": "/github-job-finder/static/js/runtime-main.01dbf628.js",
+    "runtime-main.js.map": "/github-job-finder/static/js/runtime-main.01dbf628.js.map",
+    "static/js/2.2d8ad291.chunk.js": "/github-job-finder/static/js/2.2d8ad291.chunk.js",
+    "static/js/2.2d8ad291.chunk.js.map": "/github-job-finder/static/js/2.2d8ad291.chunk.js.map",
+    "index.html": "/github-job-finder/index.html",
+    "static/css/main.ac8d1586.chunk.css.map": "/github-job-finder/static/css/main.ac8d1586.chunk.css.map",
+    "static/js/2.2d8ad291.chunk.js.LICENSE.txt": "/github-job-finder/static/js/2.2d8ad291.chunk.js.LICENSE.txt",
+    "static/media/404.ed881872.png": "/github-job-finder/static/media/404.ed881872.png",
+    "static/media/design.9f215bce.svg": "/github-job-finder/static/media/design.9f215bce.svg",
+    "static/media/job-logo.bb022661.svg": "/github-job-finder/static/media/job-logo.bb022661.svg",
+    "static/media/loading.11562bdd.gif": "/github-job-finder/static/media/loading.11562bdd.gif",
+    "static/media/octocat.237e2214.png": "/github-job-finder/static/media/octocat.237e2214.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01dbf628.js",
+    "static/js/2.2d8ad291.chunk.js",
+    "static/css/main.ac8d1586.chunk.css",
+    "static/js/main.42ef9f61.chunk.js"
+  ]
+}
